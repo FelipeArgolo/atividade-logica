@@ -1,0 +1,57 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/09/2023
+Var
+
+// Seção de Declarações das variáveis 
+
+RENDAMENSAL: REAL
+EMPRESTIMO: REAL
+PRESTACAO: REAL
+RESULTADO: REAL
+PRESTACAO2 : REAL
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+LIMPATELA
+
+ESCREVA (" <-DIGITE SUA RENDA MENSAL AQUI-> : ")
+LEIA (RENDAMENSAL)
+
+ESCREVAL ("")
+
+ESCREVAL ("")
+
+ESCREVA (" O NUMERO DE PRESTAÇÕES QUE DESEJA PAGAR: ")
+LEIA (PRESTACAO2)
+ESCREVAL ("")
+
+
+EMPRESTIMO <- RENDAMENSAL * 10
+PRESTACAO <- RENDAMENSAL * 0.30
+
+  SE (RENDAMENSAL >=1200) ENTAO
+  ESCREVA( " DIGITE O VALOR DO SEU EMPRESTIMO: ")
+  LEIA (EMPRESTIMO)
+  ESCREVAL ("SEU EMPRESTIMO FOI APROVADO: ", EMPRESTIMO * RENDAMENSAL :2:2)
+  ESCREVAL ("")
+  SENAO
+  ESCREVAL ("")
+  ESCREVA( " DIGITE O VALOR DO SEU EMPRESTIMO:")
+  LEIA (EMPRESTIMO)
+  ESCREVAL("")
+  ESCREVAL (" SEU EMPRESTIMO N FOI APROVADO: ", RENDAMENSAL * EMPRESTIMO :2:2)
+ FIMSE
+
+
+ESCREVAL ("")
+ESCREVAL ("")
+ESCREVAL (" TOTAL DAS PRESTAÇÕES: ", PRESTACAO * PRESTACAO2 )
+ESCREVAL ("")
+
+
+
+Fimalgoritmo
